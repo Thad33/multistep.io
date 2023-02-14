@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+}
+body{
+    background: rgb(240, 246, 255);
+}
+.container {
+    margin: 4% 15% 2%;
+    display: grid;
+    grid-template-columns: 18vw auto;
+    background: white;
+    padding: 15px 0px;
+    border-radius: 13px;
+
+}
+div.aside {
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 0;
+    background: url("../../assets/images/bg-sidebar-desktop.svg") 0% 0% / 100% 100% no-repeat;
+}
+div.aside.div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.items{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+div.items span{
+    font-weight: 500;
+    font-family: Ubuntu, sans-serif;
+    border-radius: 2rem;
+    border: 1.5px solid white;
+    width: 24px;
+    height: 20px;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+div.items span.two{
+    background-color: rgb(173, 190, 255);
+    color: rgb(2, 41, 90);
+    font-weight: 500;
+    font-family: Ubuntu, sans-serif;
+    border-radius: 2rem;
+    border: 1.5px solid white;
+    width: 24px;
+    height: 20px;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 13px;
+}
+.page2{
+    display: block;
+    padding: 2% 16% 0% 15%;
+    font-family: Ubuntu, sans-serif;
+}
+h1{
+    font-size: 30px;
+    padding-bottom: 7px;
+    margin: 2% 1% 1% 0px;
+}
+.page2 p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    padding-bottom: 7px;
+    color: rgb(150, 153, 171);
+}
+div.page11{
+    display: flex;
+    justify-content: space-between;
+    font-family: Ubuntu, sans-serif;
+}
+div.plan-selector{
+    text-align: center;
+    background-color: rgb(214, 217, 230);
+    padding: 2% 1%;
+    width: 98%;
+    border-radius: 7px;
+    margin-top: 10%;
+}
+a.card-a1{
+    padding-right: 12%;
+    border: 1px solid rgb(214, 217, 230);
+    border-radius: 5px;
+    padding: 3% 8% 3% 3%;
+    margin-top: 7%;
+}
+a.card-a2{
+    padding-right: 9%;
+    border: 1px solid rgb(214, 217, 230);
+    border-radius: 5px;
+    padding: 3% 8% 3% 3%;
+    margin-top: 7%;
+}
+a.card-a3{
+    padding-right: 11%;
+    border: 1px solid rgb(214, 217, 230);
+    border-radius: 5px;
+    padding: 3% 8% 3% 3%;
+    margin-top: 7%;
+}
+p{
+    color: rgb(2, 41, 90);
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+button.go{
+    margin-top: 1rem;
+    border: none;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 7.5%;
+    width: 18%;
+    color: rgb(150, 153, 171);
+    background-color: #ffffff;
+}
+button.next{
+    margin-left: 19rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 8px;
+    height: 7.5%;
+    width: 18%;
+    background-color: rgb(2, 41, 90);
+    color: rgb(255, 255, 255);
+}
+p.rr{
+    color: rgb(2, 41, 90);
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+p.ss{
+    color: rgb(150, 153, 171);
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+p.yy{
+    color: rgb(2, 41, 90);
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 7px;
+}
